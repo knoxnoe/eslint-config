@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-monorepo",
+  "version": "1.0.0",
+  "description": "personal eslint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "pnpm -r run test",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knoxnoe/eslint-config.git"
+  },
+  "keywords": [],
+  "workspaces": {
+    "packages": ["packages/*"]
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knoxnoe/eslint-config/issues"
+  },
+  "homepage": "https://github.com/knoxnoe/eslint-config#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bumpp": "^9.0.0",
+    "eslint": "^8.37.0",
+    "rimraf": "^4.4.1",
+    "typescript": "^5.0.2"
+  }
+}
