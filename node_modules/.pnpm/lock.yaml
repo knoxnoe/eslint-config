@@ -21,10 +21,11 @@ importers:
         version: 5.0.2
 
   packages/eslint-config:
-    devDependencies:
+    dependencies:
       '@tn/eslint-config-basic':
         specifier: workspace:*
         version: link:../eslint-config-basic
+    devDependencies:
       eslint:
         specifier: ^8.37.0
         version: 8.37.0
