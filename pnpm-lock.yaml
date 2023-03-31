@@ -4,7 +4,7 @@ importers:
 
   .:
     devDependencies:
-      '@tn/eslint-config':
+      '@tiannuo979/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
       bumpp:
@@ -22,7 +22,7 @@ importers:
 
   packages/eslint-config:
     dependencies:
-      '@tn/eslint-config-basic':
+      '@tiannuo979/eslint-config-basic':
         specifier: workspace:*
         version: link:../eslint-config-basic
     devDependencies:

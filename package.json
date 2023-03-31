@@ -1,5 +1,5 @@
 {
-  "name": "@tn/eslint-config-monorepo",
+  "name": "@tiannuo979/eslint-config-monorepo",
   "version": "0.0.6",
   "description": "personal eslint config",
   "main": "index.js",
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/knoxnoe/eslint-config#readme",
   "devDependencies": {
-    "@tn/eslint-config": "workspace:*",
+    "@tiannuo979/eslint-config": "workspace:*",
     "bumpp": "^9.0.0",
     "eslint": "^8.37.0",
     "rimraf": "^4.4.1",
