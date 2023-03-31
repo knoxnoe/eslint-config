@@ -1,5 +1,5 @@
 {
-  "name": "@tn/eslint-config",
+  "name": "@tiannuo979/eslint-config",
   "version": "0.0.4",
   "description": "",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@tn/eslint-config-basic": "workspace:*"
+    "@tiannuo979/eslint-config-basic": "workspace:*"
   },
   "devDependencies": {
     "eslint": "^8.37.0"
