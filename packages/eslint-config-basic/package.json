@@ -1,10 +1,8 @@
 {
   "name": "@tn/eslint-config-basic",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "./index.js",
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
