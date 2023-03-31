@@ -1,6 +1,6 @@
 {
   "name": "@tiannuo979/eslint-config-monorepo",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "personal eslint config",
   "main": "index.js",
   "scripts": {
