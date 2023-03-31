@@ -1,10 +1,8 @@
 {
-  "name": "@tn/eslint-config-basic",
+  "name": "@tn/eslint-config",
   "version": "0.0.1",
   "description": "",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +11,9 @@
   "license": "ISC",
   "peerDependencies": {
     "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@tn/eslint-config-basic": "workspace:*",
   },
   "devDependencies": {
     "eslint": "^8.37.0"

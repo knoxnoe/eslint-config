@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-monorepo",
-  "version": "1.0.0",
+  "name": "@tn/eslint-config-monorepo",
+  "version": "0.0.1",
   "description": "personal eslint config",
   "main": "index.js",
   "scripts": {
@@ -15,17 +15,18 @@
   },
   "keywords": [],
   "workspaces": {
-    "packages": ["packages/*"]
+    "packages": [
+      "packages/*"
+    ]
   },
-  "author": "",
+  "author": "@tiannuo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/knoxnoe/eslint-config/issues"
   },
   "homepage": "https://github.com/knoxnoe/eslint-config#readme",
-  "dependencies": {
-  },
   "devDependencies": {
+    "@tn/eslint-config": "workspace:*",
     "bumpp": "^9.0.0",
     "eslint": "^8.37.0",
     "rimraf": "^4.4.1",
