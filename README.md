@@ -5,7 +5,10 @@
 
 ## What
 
-> Personal eslint config template
+- Personal eslint config template
+- learn eslint-config
+- learn npm package publish
+- learn more about things I don't know
 
 ## Usage
 
